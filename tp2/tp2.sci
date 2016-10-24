@@ -192,6 +192,11 @@ test(A, b, sol);
 // 0.         
 // 1.110D-16  
 
+//Vemos que hay un elemento en la Matriz A que es 10^-12, el cual es un numero muy cercano a 0.
+//Esto nos trae errores a la hora de realizar operaciones. Antes de realizar una (**insertar aca la operacion que da error**)
+// se deben acomodar los exponentes entre (**algo**) y 10^-12 .Por eso al realizar la operacion, obtenemos un error de 
+//1.110D-16  
+
 disp("b)");
 A=[4 5 -6;2 0 -7; -5 -8 0];
 b=[-28; 29; -64];
